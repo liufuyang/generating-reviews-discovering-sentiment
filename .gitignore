@@ -1,0 +1,7 @@
+.env
+.pyc
+.ipynb_checkpoints
+
+*.big.json
+
+venv
