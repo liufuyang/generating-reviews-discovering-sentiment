@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-PYTHON_ENV_NAME=venv
+PYTHON_ENV_NAME=venv3
 
-virtualenv -p python2.7 $PYTHON_ENV_NAME
+virtualenv -p python3 $PYTHON_ENV_NAME
 
 echo "source $(pwd)/$PYTHON_ENV_NAME/bin/activate" > .env
 
